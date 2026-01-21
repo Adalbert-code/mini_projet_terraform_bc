@@ -1,0 +1,34 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# SSH keys
+*.pem
+*.pub
+
+# Variables files with secrets
+terraform.tfvars
+*.auto.tfvars
+
+# Generated files
+jenkins_ec2.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+crash.log
+
+
+.Documentation

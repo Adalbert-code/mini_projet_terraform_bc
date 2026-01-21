@@ -1,0 +1,22 @@
+# =============================================================================
+# Exemple de configuration pour le bootstrap
+# Copiez ce fichier vers terraform.tfvars et modifiez les valeurs
+# =============================================================================
+
+# Région AWS
+aws_region = "us-east-1"
+
+# Nom du bucket S3 (DOIT ÊTRE UNIQUE GLOBALEMENT)
+# Ajoutez un suffixe unique comme votre nom ou un timestamp
+bucket_name = "jenkins-terraform-state-votre-nom-unique"
+
+# Nom de la table DynamoDB
+dynamodb_table_name = "jenkins-terraform-locks"
+
+# Tags
+tags = {
+  Project     = "Jenkins-Terraform"
+  ManagedBy   = "Terraform"
+  Environment = "shared"
+  Owner       = "VotreNom"
+}
