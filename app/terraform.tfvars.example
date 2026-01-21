@@ -1,0 +1,38 @@
+# =============================================================================
+# Exemple de fichier de variables Terraform
+# Copiez ce fichier vers terraform.tfvars et modifiez les valeurs
+# =============================================================================
+
+# Région AWS
+aws_region = "us-east-1"
+
+# Zone de disponibilité
+availability_zone = "us-east-1a"
+
+# Environnement
+environment = "dev"
+
+# Configuration EC2
+instance_name    = "jenkins-server"
+instance_type    = "t2.medium"
+root_volume_size = 20
+
+# Configuration EBS
+ebs_volume_size = 30
+ebs_volume_name = "jenkins-data"
+
+# Configuration Security Group
+sg_name = "jenkins-sg"
+
+# Configuration Keypair
+key_name = "jenkins-key"
+
+# Configuration EIP
+eip_name = "jenkins-eip"
+
+# Tags communs
+common_tags = {
+  Application = "Jenkins"
+  Owner       = "DevOps"
+  Project     = "Mini-Projet-Terraform"
+}
