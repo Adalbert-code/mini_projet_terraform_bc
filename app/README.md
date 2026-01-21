@@ -406,5 +406,7 @@ terraform destroy
    *jenkins apps homepage*   
 
 ## Auteur
+**Adalbert Nanda **
+DevOps Engineer in Training
+Formation : EAZYTraining DevOps Classroom
 
-Projet réalisé dans le cadre du Bootcamp DevOps - EazyTraining
